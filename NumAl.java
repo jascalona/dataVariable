@@ -1,8 +1,10 @@
+// import java.util.random;
+
 public class NumAl{
     public static void main(String [] args) {
         
         
-        int i = 0, cantidad = 10, rango = 4000;
+        int i = 0, cantidad = 100, rango = 4000;
         int arreglo[] = new int[cantidad];
 
         arreglo[i] = (int) (Math.random()*rango); 
