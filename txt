@@ -1,0 +1,7 @@
+Requerimiento 
+    diseñar programa
+
+1) Que genere 3 numeros que vayan del 1 al 80 y junto con ello agregar 3 letras referentes al numero
+2) Que genere un serial donde los dos primeros numeros seran aliatoreos y los tres numeros 
+retantes seran numeros de sorteos de forma incremental ejemplo (001)
+3) La ultoma ilera de numeros seran seis ceros 000000 y tres ultimos numeros aleatoreos del 1 al 4000
