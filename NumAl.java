@@ -4,7 +4,7 @@ public class NumAl{
     public static void main(String [] args) {
         
         
-        int i = 0, cantidad = 100, rango = 4000;
+        int i = 1, cantidad = 10, rango = 4000;
         int arreglo[] = new int[cantidad];
 
         arreglo[i] = (int) (Math.random()*rango); 
@@ -17,8 +17,12 @@ public class NumAl{
             }
         }
 
-        for(int k = 001; k<cantidad; k ++) {
+        for(int k = 0; k<cantidad; k ++) {
             System.out.println((k + 001) + " " + arreglo[k]);
         }
+
+
+   
+
     }
 }
