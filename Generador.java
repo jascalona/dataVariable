@@ -1,13 +1,22 @@
+import java.util.Arrays;
+import java.util.Scanner;
+    //Generador con panel para usuario
+
+
 public class Generador {
     public static void main(String[] args) {
 
-        int matriz[][] = new int [3][3];
-        
-        for (int x = 0; x < matriz.length; x++) {
-            for (int y = 0; y < matriz.length; y++) {
-                matriz[x][y] = (int) (Math.random()* 9 + 1);
+        Scanner scanner = new Scanner(System.in);
+
+        int z [][]; z = new int [5][3];
+
+        for(int i = 0; i < z.length; i++) {
+            for(int j = 0; j < z[i].length; j++) {
+                z[i][j] = j + i;
             }
+            System.out.println(Arrays.toString(z[i]));
         }
+        
 
     }
 }
