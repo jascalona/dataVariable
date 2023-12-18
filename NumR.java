@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.random.*;
 
 public class NumR {
     public static void main(String[] args) {

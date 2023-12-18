@@ -1,22 +1,24 @@
 import java.util.Random;
-import java.util.random.*;
 
 public class Matriz {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int [][] matriz = new int [5][5];
+        int [][] matriz = new int [100][100];   //generador de matriz
         
-        for(int i = 0; i < matriz.length; i++) {        //columnas 
-            for(int j = 0; j < matriz.length; j++) {        //filas
-                matriz[i][j] = random.nextInt(900);
+//codigoPrimario = variable 01
+//secuenciaSerail = variable 02
+
+        for(int codigoPrimario = 0; codigoPrimario < matriz.length; codigoPrimario++) {        //columnas 
+            for(int secuenciaSerail = 0; secuenciaSerail < matriz.length; secuenciaSerail++) {        //filas
+                matriz[codigoPrimario][secuenciaSerail] = random.nextInt(5000);
             }
         }
 //Impresion
         String respuesta = "";
-            for(int i = 0; i < matriz.length; i++) {
-                for(int j = 0; j < matriz.length; j++) {
-                    respuesta = respuesta + "," + matriz[i][j];
+            for(int codigoPrimario = 0; codigoPrimario < matriz.length; codigoPrimario++) {
+                for(int secuenciaSerail = 0; secuenciaSerail < matriz.length; secuenciaSerail++) {
+                    respuesta = respuesta + "," + matriz[codigoPrimario][secuenciaSerail];
                 }
                  respuesta = respuesta + "\n";
             }
