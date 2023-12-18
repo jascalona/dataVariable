@@ -18,7 +18,7 @@ public class NumAl{
         }
 
         for(int k = 0; k<cantidad; k ++) {
-            System.out.println((k + 001) + " " + arreglo[k]);
+            System.out.println((k +1) + " " + arreglo[k]);
         }
 
 
