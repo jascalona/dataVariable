@@ -1,9 +1,8 @@
 import java.util.Calendar;
 import java.security.SecureRandom;
 
-    //es este 19/12/23
-    
-public class Generador {
+
+public class Pruebas {
 
     static Calendar Fecha = Calendar.getInstance();
     public static void main(String [] args) {
@@ -53,24 +52,18 @@ public class Generador {
             codigoP[13] = contadorV;
             codigoP[14] = contadorVI;
 
+           
+            //VALIDACION_ FORMATOS DE IMPRESION
 
-
-            for(int codificador = 0; codificador < 15; codificador++) {
-                System.out.print(" " + codigoP[codificador]);
+             for(int aletorio = 1; aletorio < 100; aletorio++) {
+                for(int codificador = 0; codificador <15; codificador++) {
+                    System.out.print("|" + codigoP[codificador]);
+                }
             }
+
 
         }
 }
-
-
-
-        //VALIDACION_ FORMATOS DE IMPRESION
-           /*  for(int aletorio = 1; aletorio <=100; aletorio++) {
-                for(int codificador = 0; codificador <15; codificador++) {
-                    System.out.print(" " + codigoP[codificador]);
-                }
-            }*/
-            
 
             /*  for(int codigoP = 1; codigoP <=10; codigoP++) {
                 double Aletorio = Math.random();
