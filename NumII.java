@@ -25,10 +25,16 @@ public class NumII {
         SecureRandom variableIV = new SecureRandom();
             int contadorIV = variableIV.nextInt(10);
 
+        SecureRandom variableV = new SecureRandom();
+            int contadorV = variableV.nextInt(10);
+
+        SecureRandom variableVI = new SecureRandom();
+            int contadorVI = variableVI.nextInt(10); 
+            
         //Carga_Vectores  
         System.out.println("\tSERIAL TICKET");
 
-        int [] codigoP = new int [13];
+        int [] codigoP = new int [15];
         codigoP[0] = 0;
         codigoP[1] = 0;
         codigoP[2] = 1;
@@ -42,8 +48,10 @@ public class NumII {
         codigoP[10] = contadorII;   
         codigoP[11] = contadorIII;
         codigoP[12] = contadorIV;
+        codigoP[13] = contadorV;
+        codigoP[14] = contadorVI;
 
-            for(int codificador = 0; codificador < 13; codificador++) {
+            for(int codificador = 0; codificador < 15; codificador++) {
                 System.out.print(" " + codigoP[codificador]);
             }
         }
