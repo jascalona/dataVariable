@@ -56,7 +56,7 @@ public class Pruebas {
             //VALIDACION_ FORMATOS DE IMPRESION
 
                 //este pint(duplica los codigos generados)
-             for(int aletorio = 1; aletorio < 25000; aletorio++) {
+             for(int aletorio = 1; aletorio < 20; aletorio++) {
                 for(int codificador = 0; codificador <15; codificador++) {
                     System.out.print("|" + codigoP[codificador]);
                 }
