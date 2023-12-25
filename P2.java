@@ -41,8 +41,6 @@ public interface P2 {
             System.out.print(" " + codigoP[codificador]);
         } 
 
-      
-
         for(int codificador_II = 0; codificador_II < 3; codificador_II++) {
             System.out.print(codigoS[codificador_II]);
         }
