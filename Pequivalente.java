@@ -23,7 +23,8 @@ public class Pequivalente.java {
   
    //Declaración Registros
 
-   int 
+   for(int Al = 1; Al <20; Al++);
+     for(int );
    
 
 
